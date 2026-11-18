@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luminoushostsolutions.com/sitemap.xml
