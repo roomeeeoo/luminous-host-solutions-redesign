@@ -1,6 +1,13 @@
 # Luminous Host Solutions: rediseño
 
-Una versión local y completamente nueva de luminoushostsolutions.com. Es independiente de la web publicada: no toca el dominio, el DNS ni el sitio en Netlify.
+Una versión completamente nueva de luminoushostsolutions.com. Es independiente de la web publicada: no toca el dominio, el DNS ni el sitio en Netlify.
+
+- **Vista pública (GitHub Pages):** https://roomeeeoo.github.io/luminous-host-solutions-redesign/
+- **Repositorio:** https://github.com/roomeeeoo/luminous-host-solutions-redesign
+
+Cada `git push` a `main` actualiza la vista pública en uno o dos minutos. Todas las rutas son relativas (`tools/relativize.mjs`), así que la misma carpeta funciona en GitHub Pages, en Netlify y en local.
+
+> El formulario de la vista pública es el real: envía a Web3Forms y llega al correo de la empresa.
 
 ## Ver la web en tu ordenador
 
@@ -16,7 +23,7 @@ node tools/serve.mjs
 
 y abre http://localhost:4321. Para pararlo, pulsa `Ctrl+C`.
 
-> No abras `index.html` con doble clic: las rutas empiezan por `/`, así que necesitan el servidor local, igual que en Netlify.
+> Usa el servidor local en lugar de abrir `index.html` con doble clic: algunos navegadores limitan los archivos abiertos directamente desde el disco.
 
 ## Qué hay en la carpeta
 
